@@ -32,7 +32,22 @@ const routes = [
       path: 'kcgl',
       name: 'kcgl',
       component: () => import('../views/kcgl/index.vue'),
-     }
+     },
+     {
+      path: '/gouwuche',
+      name: 'gouwuche',
+      component: () => import('../views/gouwuche/Home.vue'),
+     },
+     {
+      path: '/cart',
+      name: 'cart',
+      component: () => import('../views/gouwuche/Cart.vue'),
+     },
+     {
+      path: '/moved',
+      name: 'moved',
+      component: () => import('../views/moved/index.vue'),
+     },
     ]
 
   }
