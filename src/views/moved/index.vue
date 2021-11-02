@@ -25,13 +25,13 @@
     overflow: hidden;
     display: flex;
 
-    .header{
+    header{
         height: 1rem;
         line-height: 1rem;
         width: 100%;
         background-color: red;
         top: 5px;
-        
+        margin:10px;
     }
     .main{
         width: 100%;
@@ -39,7 +39,7 @@
         background-color: pink;
         top: 2.5rem;
     }
-    .footer{
+    footer{
         height: 1rem;
         width: 100%;
         background-color: skyblue;
